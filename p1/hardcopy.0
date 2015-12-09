@@ -1,0 +1,42 @@
+RetAddr:   4   00FFFDEC:  000028B8
+                         ==========
+   Args:   8   00FFFDF0:  00000013
+
+PARAMETERS AND LOCAL VARIABLES WITHIN THIS FRAME:
+=================================================
+  a: int
+           8   00FFFDF0:  00000013    value = 19
+  _temp_15
+         -12   00FFFDDC:  0000906C
+  b: int
+         -16   00FFFDD8:  00000014    value = 20
+=================================================
+> fr
+=====  Frame number 0 (where StackTop = 0)  =====
+Function Name:    bar
+Filename:         HelloWorld.c
+Execution now at: line 20
+Frame Addr:       00FFFDE8
+frameSize:        12
+totalParmSize:    4
+                         ==========
+   sp--> -20   00FFFDD4:  00000014
+         -16   00FFFDD8:  00000014
+         -12   00FFFDDC:  0000906C
+R.D.ptr:  -8   00FFFDE0:  000028D0
+    r13:  -4   00FFFDE4:  00000015
+     fp:   0   00FFFDE8:  00FFFE04
+RetAddr:   4   00FFFDEC:  000028B8
+                         ==========
+   Args:   8   00FFFDF0:  00000013
+
+PARAMETERS AND LOCAL VARIABLES WITHIN THIS FRAME:
+=================================================
+  a: int
+           8   00FFFDF0:  00000013    value = 19
+  _temp_15
+         -12   00FFFDDC:  0000906C
+  b: int
+         -16   00FFFDD8:  00000014    value = 20
+=================================================
+>
